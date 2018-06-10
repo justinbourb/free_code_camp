@@ -1,0 +1,11 @@
+#main{
+  display: grid;
+  align-self: center;
+}
+#image{
+  display:block;
+  align-self:center
+    jusitfy-self:center;
+  max-width:100%;
+  height:auto;
+}
