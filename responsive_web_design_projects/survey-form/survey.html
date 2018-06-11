@@ -1,0 +1,28 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<main id="main">
+  <h1 id="title">Survey Form</h1>
+  <p id="description">Let us know how we can improve freeCodeCamp </p>
+  <form id="survey-form">
+    <label id="name-label">Name:</label> <input id="name" type="text" placeholder="Enter your name" required>
+    <label id="email-label">Email: </label><input id="email" type="email" placeholder="Enter your email" required>
+    <label id="number-label">Age:</label> <input id="number" type="number" min="1" max="120" placeholder="Enter your age">
+    <br><label id="dropdown-label">Which option best describes your current role?<select name="dropdown" id="dropdown">
+    <option>Student</option>
+    <option>Full Time Job</option>
+    <option>Full Time Learner</option>
+    <option>Prefer not to say</option>
+    <option>Other</option>
+    </select>
+    <label id="radio-label">How likely is that you would recommend freeCodeCamp to a friend?</label>
+     <input name="recommend-radio" type="radio" value="Definitely">Definitely<br>
+    <input name="recommend-radio" type="radio" value="Maybe">Maybe<br>
+    <input name="recommend-radio" type="radio" value="Not Sure">Not Sure<br>
+ <label id="improve-label">Things that should be improved in the future. Check all that apply.</label>
+    <br><br>
+    <input type="checkbox" value="front-end">Front-End Projects<br>
+    <input type="checkbox" value="back-end">Back-end Projects<br>
+    <input type="checkbox" value="data-visualizations">Data Visualization<br>
+    <label name="comments">Any comments or suggestions?</label><textarea value="comments-text" placeholder="Please enter your comments."></textarea>
+    <br><button id="submit" type="submit">Submit</button>
+  </form>
+</main>
