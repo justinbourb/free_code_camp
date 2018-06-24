@@ -1,0 +1,43 @@
+main{
+  background:grey;
+  text-align:center;
+  color:white;
+}
+#survey-form{
+  border: 20px solid black;
+  background:black;
+  margin:50px;
+  text-align:center;
+  display:grid;
+  grid-template-areas:
+    "left1 right1"
+    "left2 right2";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+#footer{
+  background:grey;
+  height: 100px;
+  width:100%;
+}
+#submit{
+  background:black;
+  color:white;
+  font-weight:bold;
+  font-size:20px;
+  border-style:solid;
+  border-color:grey;
+  border-width:5px;
+  margin-top:20px;
+}
+label .bot{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+}
+input select value{
+  display: inline-block;
+  float: left;
+}
